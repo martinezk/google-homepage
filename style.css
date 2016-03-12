@@ -1,58 +1,87 @@
-.header {
-	float: right;
-	top: 5px;
-	right: 5px;
+body {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 	
 }
-ul {
-	list-style-type: none;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 15px;
+li {
+	display: inline;
+	font-family: sans-serif, arial;
+	font-family: sans-serif, arial;
+	font-size: 13.5px;
+	padding-right: 8px;
+}
+.references {
+	padding-right: 5px;
+	margin-right: 15px;
+}
+a {
+	text-decoration: none;
+	color: gray;
+}
+.links{
+	margin-right: 8px;
+	padding-top: 20px;
+}
+.icons {
 	margin: 0;
-    padding: 0;
+	padding-top: 15px;
+	padding-right: 4px;
 }
-.center {
-	position: absolute;
-	left: 30%;
-	top: 30%;
+.avatar{
+	border-radius: 50%;
+    height: 32px;
+    width: 32px;
+	margin-right: 15px;
 }
-img {
-	padding-left: 150px;
+.header{
+	width: 80%;
+	display: inline;
+	
+}
+.main{
+	position: relative;
+	top: 193px;
+	left: 390px;
+	right: 450px;
+	width: 600px;
+	height: 300px;
+}
+.googlelogo {
+	height: 92px;
+    width: 272px;
+	padding-left: 164px;
+	padding-bottom: 30px;
+
+}
+.searchbox{
+	width: 100%;
+	height: 38px;
 	margin-bottom: 30px;
 }
-.searchbox {
-	width: 550px;
-	height: 40px;
-	border: 1px solid blue;
-	padding-left: 5px;
+.sbutton{
+	margin-left:170px;
+	margin-right: 6px;
 	font-size: 14px;
-}
-
-.sbutton {
-	margin-top:40px;
-	margin-left: 135px;
-	padding: 10px 15px;
-	font-size: 14px;
-	font-weight: bold;
+	padding: 10px;
 	border-style: none;
-	background: WhiteSmoke;
-	color:Gray;
-}
-.lbutton {
-	margin-left: 5px;
-	padding: 10px 15px;
-	font-size: 14px;
+	background-color: #f3f3f3;
+	color: gray;
 	font-weight: bold;
+}
+.lbutton{
+	font-size: 14px;
+	padding: 10px;
 	border-style: none;
-	background: WhiteSmoke;
-	color:Gray;
+	background-color: #f3f3f3;
+	color: gray;
+	font-weight: bold;
 }
-.footer {
-	
-}
-li{
-	display: inline;
-}
-.right-foot {
-	float: right;	
+.footer{
+	background-color: #f3f3f3;
+	position: fixed;
+    bottom: 0;
+	height: 28px;
+    width: 100%;
+	padding-bottom: 20px;
 }
